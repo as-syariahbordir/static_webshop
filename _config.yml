@@ -77,13 +77,13 @@ compress_html:
 # Google Auth
 WA_KEY: 08113951666
 SITE_KEY: 
-API_KEY: AIzaSyAETmKUC4nfmt-__Ly7f15KXd_Rl3eRieo
-AUTH_DOMAIN: as-syariah-putra.firebaseapp.com
+API_KEY: AIzaSyAg0iGhswfD54OJiw_d0EvfD6O8fAQM6Z8
+AUTH_DOMAIN: as-syariahbordir.firebaseapp.com
 DATABASE_URL: https://as-syariah-putra.firebaseio.com
-PROJECT_ID: as-syariah-putra
-STORAGE_BUCKET: as-syariah-putra.firebasestorage.app
-SENDER_ID: 235177187138
-APP_ID: 1:235177187138:web:b3fd3025d7f93cd1a6dadb
+PROJECT_ID: as-syariahbordir
+STORAGE_BUCKET: as-syariahbordir.firebasestorage.app
+SENDER_ID: 988921900751
+APP_ID: 1:988921900751:web:b6354638e514d05934d1ba
 
 
 
