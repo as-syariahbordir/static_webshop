@@ -62,7 +62,7 @@ transition: 0.5s;
     projectId: "{{ site.PROJECT_ID }}",
     storageBucket: "{{ site.STORAGE_BUCKET }}",
     messagingSenderId: "{{ site.SENDER_ID }}",
-    appId: "{{ site.env.APP_ID }}",
+    appId: "{{ site.APP_ID }}",
     };firebase.initializeApp(firebaseConfig);const auth=firebase.auth();const userSignedInDiv=document.getElementById('user-signed-in');const signInButton=document.getElementById('sign-in-button');function toggleUI(){if(auth.currentUser){location.href="{{site.baseurl}}/checkout"}else{}}
 signInButton.addEventListener('click',()=>{const provider=new firebase.auth.GoogleAuthProvider();auth.signInWithPopup(provider)});auth.onAuthStateChanged(user=>{toggleUI()})
   </script>
